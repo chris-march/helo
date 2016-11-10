@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HeloApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HeloApplication.class, args);
+	public static void main(String[] argv) {
+		SpringApplication.run(HeloApplication.class, argv);
 	}
 }
